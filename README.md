@@ -23,12 +23,6 @@ Backend **RESTful** desarrollado en **Laravel**, para gestionar un sistema de bi
   - Control de copias totales y disponibles
   - Relación con autores y géneros
 
-- **Autores**
-  - Crear, listar y ver detalles
-
-- **Géneros**
-  - Crear, listar y ver detalles
-
 - **Usuarios**
   - CRUD
   - Relación con préstamos y penalizaciones
