@@ -1,0 +1,61 @@
+# ======================
+# Laravel (backend)
+# ======================
+
+# Dependencias
+backend/vendor/
+
+# Archivos de entorno
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/.env.testing
+
+# Storage y archivos generados
+backend/public/storage
+backend/storage/
+!backend/storage/.gitignore
+
+# Cache y logs de pruebas
+backend/.phpunit.result.cache
+backend/logs/
+backend/bootstrap/cache/
+
+# Homestead y auth
+backend/Homestead.json
+backend/Homestead.yaml
+backend/auth.json
+
+# Node/Yarn logs si usas npm o yarn en backend
+backend/npm-debug.log
+backend/yarn-error.log
+
+# ======================
+# React (frontend)
+# ======================
+
+# Dependencias
+frontend/node_modules/
+
+# Archivos compilados/build
+frontend/build/
+
+# Node/Yarn logs
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+
+frontend/.env
+
+# ======================
+# IDEs y editores
+# ======================
+/.fleet
+/.idea
+/.vscode
+
+# ======================
+# Otros archivos del sistema
+# ======================
+.DS_Store
+Thumbs.db
